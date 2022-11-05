@@ -1,0 +1,63 @@
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* PAGINA 5 CONTACTO */
+
+#contactoBMV{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        h1{
+            color: $colortext;
+            font-size: $textLg;
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        div img{
+            width: 50%;
+            height: auto;
+            margin-top: 2%; 
+        }
+
+        .CBMV-info{
+            display: flex;
+            justify-content: space-around;
+
+                fieldset{
+                    width: 50%;
+                    height: auto;
+                    border: dashed 3px red;
+                    margin-top: 3%;
+
+                    form{
+                        padding: 2em 0;
+                    }
+                }
+
+                legend{
+                    color: $colortext;
+                    font-size: $textMd;
+                    
+                }
+        }
+}
+
+                .dato-infoc{
+                    color: $colortext;
+                    font-size: $textSm;
+                    padding: 0 1em;
+                    
+                }
+
+                .textoinfo{
+                    width: 60%;
+                    margin: 10px;
+                }
+
+                .procesarinfo{
+                    margin: 0 20px;
+                    font-size: $textSm;
+                }      
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* FIN */

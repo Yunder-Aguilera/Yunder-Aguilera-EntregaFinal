@@ -1,0 +1,6 @@
+@mixin animacion ($animacion, $tiempo){ 
+    animation: $animacion; 
+    animation-duration: $tiempo;
+}
+
+

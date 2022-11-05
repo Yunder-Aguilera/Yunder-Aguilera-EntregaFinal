@@ -1,0 +1,132 @@
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* PAGINA 3 GALERÍA- */
+
+.tgaleria{
+    text-align: center;
+    font-size: $textLg;
+    color: $colortext;
+    margin-top: 5%;
+    @include animacion (backInLeft, 5s);
+}
+
+    
+            .foto-galería1{
+                grid-area: foto1;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería2{
+                grid-area: foto2;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería3{
+                grid-area: foto3;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería4{
+                grid-area: foto4;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería5{
+                grid-area: foto5;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería6{
+                grid-area: foto6;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería7{
+                grid-area: foto7;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería8{
+                grid-area: foto8;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería9{
+                grid-area: foto9;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería10{
+                grid-area: foto10;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería11{
+                grid-area: foto11;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería12{
+                grid-area: foto12;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería13{
+                grid-area: foto13;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería14{
+                grid-area: foto14;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería15{
+                grid-area: foto15;
+                @include animacion (backInDown, 4s);
+            }
+
+            .foto-galería16{
+                grid-area: foto16;
+                @include animacion (backInDown, 4s);
+            }
+
+
+/* --------------------------------------------------------------------------- */
+  
+    #galería{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(16, 300px);
+        grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9" "foto10" "foto11" "foto12" "foto13" "foto14" "foto15" "foto16";
+        grid-gap: 3em;
+        margin-top: 5%;
+
+        @media (min-width: 768px){
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(8, 300px);
+            grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10" "foto11 foto12" "foto13 foto14" "foto15 foto16";
+        }
+
+        @media(min-width: 1200px){
+                grid-template-columns: repeat(4,1fr);
+                grid-template-rows: repeat(4, 35vh);
+                grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12" "foto13 foto14 foto15 foto16";
+        }
+        
+        .FTG{
+            height: 100%;
+            width: 95%;
+            object-fit: fill;
+            border-radius: 5px;
+            margin: 5px;
+            box-shadow: $box-shadow;
+                &:hover{
+                    -webkit-transform:scale(1.1);transform:scale(1.1);
+                }       
+        }
+ 
+    }
+

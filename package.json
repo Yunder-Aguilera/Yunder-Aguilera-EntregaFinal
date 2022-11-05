@@ -1,0 +1,24 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  cssStyle/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yunder-Aguilera/Preentrega-Yunder-Aguilera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yunder-Aguilera/Preentrega-Yunder-Aguilera/issues"
+  },
+  "homepage": "https://github.com/Yunder-Aguilera/Preentrega-Yunder-Aguilera#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "description": ""
+}
