@@ -1,9 +1,9 @@
 # Yunder-Aguilera-EntregaFinal
 
-Netlify
+Netlify;
 https://barrasmovilesvip.netlify.app/
 
-000webhots
+000webhots: 
 barrasmovilesvip.000webhostapp.com
 
 link page
